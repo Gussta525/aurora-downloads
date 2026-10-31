@@ -2,9 +2,9 @@
 
 [Baixar o instalador mais recente](https://github.com/Gussta525/aurora-downloads/releases/latest)
 
-Instale `Aurora-Setup-0.7.0.exe` no Windows 10/11 de 64 bits. Não precisa instalar Node.js. Abra o atalho Aurora e use sua conta do serviço https://aurora-fqza.onrender.com.
+Instale `Aurora-Setup-0.8.0.exe` no Windows 10/11 de 64 bits. Não precisa instalar Node.js. Abra o atalho Aurora e use sua conta do serviço https://aurora-fqza.onrender.com.
 
-O aplicativo avisa quando uma nova versão é publicada. Você pode baixar e escolher **Reiniciar e atualizar**, ou deixar para mais tarde. O menu **Aurora → Verificar atualizações** faz uma verificação manual. A primeira consulta automática ocorre cerca de 15 segundos após abrir; novas consultas ocorrem a cada quatro horas enquanto o aplicativo está aberto.
+O Aurora verifica atualizações assinadas na janela de inicialização e aplica novas versões antes de abrir. Se a rede falhar, abre a versão atual. Durante o uso, verifica a cada quatro horas, baixa em segundo plano e aguarda o próximo reinício. O menu de busca manual foi removido na versão 0.8. Em **Configurações → Aplicativo**, veja a versão e use **Reiniciar aplicativo** ou **Reiniciar e atualizar**.
 
 Mensagens, grupos, servidores, chamadas e compartilhamento de tela com áudio usam o mesmo serviço online. No Windows, a seleção de tela oferece **Incluir áudio do computador**. O serviço usa planos gratuitos, sujeitos a limites e inatividade.
 
@@ -17,3 +17,5 @@ Na versão **0.6.0**, o compartilhamento usa um seletor escuro com miniaturas e 
 Na versão **0.7.0**, personalize foto e faixa com PNG, JPEG, WebP ou **GIF animado**, cor da faixa, bio e status. Edite em **Configurações → Meu perfil**. Fotos aceitam até 1 MB; imagens da faixa, até 2 MB. Clique no avatar de alguém para abrir o perfil.
 
 O aplicativo para Windows detecta jogos compatíveis (incluindo Roblox) e músicas em reprodução no **Spotify instalado**, pelo controle de mídia do Windows, sem pedir login ou senha Spotify. A leitura acontece a cada 15 segundos enquanto o Aurora está aberto. Use a opção de atividades no perfil ou o status Invisível para ocultar. Spotify Web e jogos fora do catálogo inicial não são detectados. A atividade Em voz mostra as chamadas do próprio Aurora.
+
+Na versão **0.8.0**, a inicialização mostra uma janela de carregamento com estado e progresso. O reinício pelas configurações pede confirmação para evitar encerrar uma chamada por engano. Para migrar de uma versão anterior, use uma última vez o menu de atualização antigo ou instale a 0.8. Depois disso a abertura verifica automaticamente.
